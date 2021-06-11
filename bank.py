@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Sized
+
 # class Bank:
 #     def __init__(self,balance,owner,acc_no):
 #         self.balance=balance
