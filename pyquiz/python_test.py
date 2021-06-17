@@ -9,8 +9,7 @@ def divisible_by_three(n):
     for nums in range(1,n):
         if nums%3==0:
             print(nums)
-        else:
-            print(nums)
+      
 divisible_by_three(50)
            
 #q3
