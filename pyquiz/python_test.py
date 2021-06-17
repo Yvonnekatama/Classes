@@ -8,9 +8,9 @@
 def divisible_by_three(n):
     for nums in range(1,n):
         if nums%3==0:
-            return "Is divisible"
+            print(nums)
         else:
-            return "Is not divisible"
+            print(nums)
 divisible_by_three(50)
            
 #q3
@@ -24,11 +24,7 @@ numbers()
 def letters():
     x = ['a','b','a','e','d','b','c','e','f','g','h']
     for duplicates in x:
-        x.discard('duplicates')
-
-
-
-    
+        x.discard('duplicates')    
 #q6
 def divisible_by_seven():
     a=[]
@@ -36,6 +32,7 @@ def divisible_by_seven():
     for n in num:
         if n%7==0:
             a.append(a)
+    
 divisible_by_seven()
 #q7
 def greet():
@@ -52,7 +49,7 @@ class Rectangle:
         a=self.width * self.length
         print (f"The area of a rectange is {a}")
     def perimeter(self):
-        p=2 *self.length + 2*self.width
+        p=2*self.length + 2*self.width
         print (f"The area of a rectangle is {p}")
 
 
